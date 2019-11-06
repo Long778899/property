@@ -1,0 +1,180 @@
+<?xml version="1.0" encoding="utf-8"?>
+<android.support.constraint.ConstraintLayout xmlns:android="http://schemas.android.com/apk/res/android"
+    xmlns:app="http://schemas.android.com/apk/res-auto"
+    android:layout_width="match_parent"
+    android:layout_height="match_parent">
+
+    <LinearLayout
+        android:layout_width="match_parent"
+        android:layout_height="375dp"
+        android:layout_marginLeft="20dp"
+        android:layout_marginTop="215dp"
+        android:layout_marginRight="20dp"
+        android:background="@drawable/ic_bg_white"
+        android:minHeight="375dp"
+        android:orientation="vertical"
+        app:layout_constraintLeft_toLeftOf="parent"
+        app:layout_constraintRight_toRightOf="parent"
+        app:layout_constraintTop_toTopOf="parent">
+
+        <LinearLayout
+            android:layout_width="match_parent"
+            android:layout_height="wrap_content"
+            android:gravity="center"
+            android:minHeight="50dp"
+            android:orientation="horizontal">
+
+            <TextView
+                android:id="@+id/txt_loginCode"
+                android:layout_width="wrap_content"
+                android:layout_height="wrap_content"
+                android:autoLink="all"
+                android:background="@drawable/txt_selector"
+                android:enabled="false"
+                android:paddingLeft="20dp"
+                android:paddingTop="10dp"
+                android:paddingRight="20dp"
+                android:paddingBottom="10dp"
+                android:text="验证码登录"
+                android:textColor="@drawable/txt_color_selector"
+                android:textSize="24sp" />
+
+            <TextView
+                android:id="@+id/txt_loginPw"
+                android:layout_width="wrap_content"
+                android:layout_height="wrap_content"
+                android:autoLink="all"
+                android:background="@drawable/txt_selector"
+                android:enabled="true"
+                android:paddingLeft="20dp"
+                android:paddingTop="10dp"
+                android:paddingRight="20dp"
+                android:paddingBottom="10dp"
+                android:text="密码登录"
+                android:textColor="@drawable/txt_color_selector"
+                android:textSize="24sp" />
+        </LinearLayout>
+
+        <LinearLayout
+            android:id="@+id/layout_verify"
+            android:layout_width="match_parent"
+            android:layout_height="wrap_content"
+            android:orientation="vertical"
+            android:visibility="visible">
+
+            <EditText
+                android:id="@+id/txt_codePhone"
+                android:layout_width="match_parent"
+                android:layout_height="wrap_content"
+                android:background="@drawable/txt_selector"
+                android:gravity="left"
+                android:hint="@string/txt_login_phone_tips"
+                android:minHeight="50dp"
+                android:padding="20dp"
+                android:textColor="@color/hint_color"
+                android:textSize="24sp" />
+
+            <TextView
+                android:layout_width="match_parent"
+                android:layout_height="wrap_content"
+                android:background="@android:color/transparent"
+                android:gravity="center"
+                android:hint="@string/txt_login_unregister_tips"
+                android:minHeight="50dp"
+                android:textColor="@color/tips_color"
+                android:textSize="@dimen/txt_login_phone_tips_size" />
+
+            <TextView
+                android:id="@+id/txt_getverify"
+                android:layout_width="match_parent"
+                android:layout_height="50dp"
+                android:layout_marginLeft="20dp"
+                android:layout_marginTop="48dp"
+                android:layout_marginRight="20dp"
+                android:background="@drawable/txt_login_btn_bg"
+                android:gravity="center"
+                android:text="@string/txt_login_getverify"
+                android:textColor="@color/white"
+                android:textSize="18sp" />
+
+            <TextView
+                android:id="@+id/txt_loginOther"
+                android:layout_width="match_parent"
+                android:layout_height="30dp"
+                android:layout_marginLeft="20dp"
+                android:layout_marginTop="48dp"
+                android:layout_marginRight="20dp"
+                android:gravity="center"
+                android:text="@string/txt_login_other"
+                android:textColor="@color/colorGray"
+                android:textSize="18sp" />
+        </LinearLayout>
+
+        <LinearLayout
+            android:id="@+id/layout_pw"
+            android:layout_width="match_parent"
+            android:layout_height="wrap_content"
+            android:orientation="vertical"
+            android:visibility="gone">
+
+            <EditText
+                android:id="@+id/txt_phone"
+                android:layout_width="match_parent"
+                android:layout_height="wrap_content"
+                android:autoLink="all"
+                android:background="@drawable/txt_selector"
+                android:gravity="left"
+                android:hint="@string/txt_login_phone_hint"
+                android:paddingLeft="20dp"
+                android:paddingTop="20dp"
+                android:paddingRight="20dp"
+                android:paddingBottom="10dp"
+                android:textColor="@drawable/txt_color_selector"
+                android:textSize="24sp" />
+
+            <EditText
+                android:id="@+id/txt_pw"
+                android:layout_width="match_parent"
+                android:layout_height="wrap_content"
+                android:autoLink="all"
+                android:background="@drawable/txt_selector"
+                android:gravity="left"
+                android:hint="@string/txt_login_pw_hint"
+                android:paddingLeft="20dp"
+                android:paddingTop="20dp"
+                android:paddingRight="20dp"
+                android:paddingBottom="10dp"
+                android:textColor="@drawable/txt_color_selector"
+                android:textSize="24sp" />
+
+            <TextView
+                android:id="@+id/txt_forgetPw"
+                android:layout_width="match_parent"
+                android:layout_height="wrap_content"
+                android:autoLink="all"
+                android:background="@android:color/transparent"
+                android:gravity="left"
+                android:hint="@string/txt_login_forgetpw"
+                android:paddingLeft="20dp"
+                android:paddingTop="20dp"
+                android:paddingRight="20dp"
+                android:paddingBottom="10dp"
+                android:textColor="@color/colorGray"
+                android:textSize="24sp" />
+
+            <TextView
+                android:id="@+id/txt_login"
+                android:layout_width="match_parent"
+                android:layout_height="50dp"
+                android:layout_marginTop="20dp"
+                android:autoLink="all"
+                android:background="@drawable/txt_login_btn_bg"
+                android:enabled="false"
+                android:gravity="center"
+                android:text="登录"
+                android:textColor="@color/white"
+                android:textSize="18sp" />
+        </LinearLayout>
+    </LinearLayout>
+
+</android.support.constraint.ConstraintLayout>

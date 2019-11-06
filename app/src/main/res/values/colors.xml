@@ -1,0 +1,15 @@
+<?xml version="1.0" encoding="utf-8"?>
+<resources>
+    <color name="colorPrimary">#008577</color>
+    <color name="colorPrimaryDark">#00574B</color>
+    <color name="colorAccent">#D81B60</color>
+    <color name="colorGray">#CECDCD</color>
+    <color name="black">#000000</color>
+    <color name="white">#ffffff</color>
+    <color name="hint_color">#CCCCCC</color>
+    <color name="tips_color">#999999</color>
+    <color name="login_color_bg">#00837B</color>
+    <color name="color_getverify">#21B9A9</color>
+    <color name="grey">#C7C7C7</color>
+    <color name="brown">#BB5500</color>
+</resources>

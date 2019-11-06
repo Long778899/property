@@ -1,0 +1,95 @@
+<resources>
+
+    <string name="title_home">首页</string>
+    <string name="neighbor">邻里</string>
+    <string name="activity">活动</string>
+    <string name="my">我的</string>
+    <string name="title_dashboard">Dashboard</string>
+    <string name="title_notifications">Notifications</string>
+
+    <string name="tips_phone">请输入正确的手机号</string>
+    <string name="err_pw">账号或密码错误</string>
+    <string name="err_phone">获取验证码失败</string>
+
+
+    <string name="txt_login_phone_tips">请输入手机号码</string>
+    <string name="txt_login_unregister_tips">未注册的用户将直接创建账户</string>
+    <string name="txt_login_getverify">获取短信验证码</string>
+    <string name="txt_login_other">其他方式登录</string>
+    <string name="txt_login_phone_hint">请输入手机号</string>
+    <string name="txt_login_pw_hint">请输入密码</string>
+    <string name="txt_login_repw_hint">请再次输入密码</string>
+    <string name="txt_login_forgetpw">忘记密码</string>
+    <string name="txt_login_ok">登录</string>
+    <string name="txt_login_skip">跳过</string>
+    <string name="txt_input_verify">输入验证码</string>
+    <string name="tips_phone_sendverify">验证码发送至+86  $</string>
+    <string name="txt_getverifiy">重新获取验证码</string>
+
+
+    <string name="hello_blank_fragment">Hello blank fragment</string>
+
+    <string name="title">中粮·京西祥云</string>
+
+    <string name="entrance">门禁钥匙</string>
+
+    <string name="property">物业管理</string>
+
+    <string name="cost">物业缴费</string>
+
+    <string name="warranty">保修服务</string>
+
+    <string name="smart">智能居家</string>
+
+    <string name="experience">智能家居体验馆一日游</string>
+
+    <string name="title1">请大家踊跃参加，体验智能生活</string>
+
+    <string name="address">通讯录</string>
+
+    <string name="message">消息</string>
+
+    <string name="passage">忘记密码</string>
+
+    <string name="verification">输入验证码</string>
+
+    <string name="warning">登陆注册表示同意《中粮智慧社区协议》</string>
+
+    <string name="shurushoujihao">请输入手机号</string>
+
+    <string name="bangding">绑定</string>
+
+    <string name="baixiu">报修服务</string>
+
+    <string name="fenlei">分类标签</string>
+
+    <string name="fuwudizhi">服务地址</string>
+
+    <string name="shijian">上门时间</string>
+
+    <string name="dianhua">联系电话</string>
+
+    <string name="jingxixiangyunxiaoqu">京西祥云小区业主问卷调查</string>
+    <string name="scan_open">扫码开门</string>
+    <string name="louhao">请输入你的楼号</string>
+    <string name="latest_activity">最新活动</string>
+    <string name="zhiye">请输入你的职业</string>
+
+    <string name="laifang">来访方式</string>
+    <string name="warn">为防止账号丢失请绑定手机号</string>
+    <string name="year">年</string>
+
+    <string name="minute">日</string>
+
+
+    <string name="commonlyusedthephone">常用电话</string>
+
+
+    <string name="shuaxin">点击二维码立即刷新</string>
+
+    <string name="new_achieve">60S后重新获取二维码</string>
+
+    <string name="look_guide">查看引导</string>
+
+    <string name="call_wuye">呼叫物业</string>
+</resources>
